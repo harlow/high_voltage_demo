@@ -1,28 +1,53 @@
-# HighVoltage Demo
+# High Voltage Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This sample application allows visitors to view several static pages served by
+the [High Voltage](https://github.com/thoughtbot/high_voltage) gem.
 
-Things you may want to cover:
+It demonstrates several techniques:
 
-* Ruby version
+1. A contact form for visitors to fill out.
+2. Top-level routes to remove the `pages` directory from the path.
+3. A 301 redirect to `/home` to the root path.
 
-* System dependencies
+## Install
 
-* Configuration
+### Download the source
 
-* Database creation
+Clone the git repository
 
-* Database initialization
+    $ git clone git@github.com:harlow/high_voltage_demo.git
+    $ cd high_voltage_demo
+    $ bundle
 
-* How to run the test suite
+Create database and run migrations (Postgres is required for Heroku deployment)
 
-* Services (job queues, cache servers, search engines, etc.)
+    $ rake db:create
 
-* Deployment instructions
+Run the rails server
 
-* ...
+    $ rails s
 
+### View the Application
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+From a web browser access the site via [localhost:3000](http://localhost:3000)
+
+## Deploy the application to Heroku
+
+Create an application container on Heroku
+
+    $ heroku create
+
+Push the code to the Heroku container
+
+    $ git push heroku master
+
+## Test suite
+
+RSpec and Capybara used for Integration and Unit tests
+
+    $ rspec
+
+## Credits
+
+High Voltage Demo is maintained by [Harlow Ward](http://www.hward.com). Thank
+you to all the [contributors](https://github.com/harlow/high_voltage_demo/graphs/contributors).
