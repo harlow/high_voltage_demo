@@ -1,0 +1,6 @@
+<%= simple_form_for resource, html: { novalidate: true }, remote: true do |f| %>
+  <%= f.input :name %>
+  <%= f.input :email %>
+  <%= f.input :comments, as: :text %>
+  <%= f.button :submit, value: 'Submit' %>
+<% end %>
