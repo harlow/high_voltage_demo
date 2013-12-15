@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/harlow/high_voltage_demo.png?label=ready)](https://waffle.io/harlow/high_voltage_demo)  
 # High Voltage Demo
 
 This sample application allows visitors to view several static pages served by
