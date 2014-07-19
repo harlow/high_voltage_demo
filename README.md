@@ -1,5 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/harlow/high_voltage_demo.png?label=ready)](https://waffle.io/harlow/high_voltage_demo)  
-# High Voltage Demo
+ # High Voltage Demo
 
 This sample application allows visitors to view several static pages served by
 the [High Voltage](https://github.com/thoughtbot/high_voltage) gem.
@@ -27,8 +26,6 @@ Create database and run migrations (Postgres is required for Heroku deployment)
 Run the rails server
 
     $ rails s
-
-### View the Application
 
 From a web browser access the site via [localhost:3000](http://localhost:3000)
 
