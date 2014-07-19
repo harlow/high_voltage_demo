@@ -1,4 +1,4 @@
- # High Voltage Demo
+# High Voltage Demo
 
 This sample application allows visitors to view several static pages served by
 the [High Voltage](https://github.com/thoughtbot/high_voltage) gem.
