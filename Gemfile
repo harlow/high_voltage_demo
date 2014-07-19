@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'email_validator'
-gem 'high_voltage'
+gem 'high_voltage', '~> 2.2.0'
 gem 'jquery-rails'
 gem 'pg'
 gem 'rails', '4.1.0'
